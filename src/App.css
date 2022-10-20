@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tokenCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+ul{ 
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 2em;
+  will-change: filter;
+  margin-right: 1em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #64ffb9aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61fb7daa);
+}
+
